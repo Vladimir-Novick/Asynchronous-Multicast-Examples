@@ -21,7 +21,7 @@
     <ClInclude Include="ReadDataFromFile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ItemWriter.h">
+    <ClInclude Include="Accumulator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -35,7 +35,7 @@
     <ClCompile Include="ReadDataFromFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ItemWriter.cpp">
+    <ClCompile Include="Accumulator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

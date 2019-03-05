@@ -19,6 +19,7 @@ class ReadDataFromFile
 private:
 	string inp_fileName;
 	ifstream infile;
+	
 	void CloseFile();
 	vector<string> split(const string& s, char delimiter);
 	void split(const string& s, char delimiter, vector<string>& tokens);
@@ -29,6 +30,7 @@ public:
 	string ReadLine();
 	vector<string>  GetSplitItems(char delimiter);
 	string  GetSplitItem(char delimiter);
+
 	ReadDataFromFile(string fileName);
 	~ReadDataFromFile();
 

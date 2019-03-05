@@ -4,6 +4,7 @@
 
 ReadDataFromFile::ReadDataFromFile(string fileName)
 {
+	
 	inp_fileName = fileName;
 	eof = true;
 	// Opening file in input mode 
